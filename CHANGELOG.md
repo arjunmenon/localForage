@@ -3,6 +3,10 @@
 This file will include all API breakage, new features, and upgrade info in
 localForage's lifetime.
 
+### Next
+
+* Check code quality in test suite ([#124](https://github.com/mozilla/localForage/pull/124))
+
 ### [Version 0.2.1](https://github.com/mozilla/localForage/releases/tag/0.2.1)
 
 * Allow configuration of WebSQL DB size
