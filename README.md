@@ -182,7 +182,8 @@ added to this list.
 # Running Tests
 
 **tl;dr:** You need PhantomJS and SlimerJS installed to run tests. Then, just
-run `npm test` (or, directly, `grunt test`).
+run `npm test` (or, directly, `grunt test`). Your code must also pass the
+[linter](http://www.jshint.com/).
 
 _Note for Windows users:_ SlimerJS doesn't seem to work on Windows for our
 tests, so run the tests with `grunt test --force`. The SlimerJS versions will
@@ -215,7 +216,9 @@ described on the
 [project homepage](http://slimerjs.org/install.html#install-firefox).
 
 Once everything is installed you can simply type `grunt test`
-to make sure the code is working as expected.
+to make sure the code is working as expected. This will also
+[check your code quality](http://www.jshint.com/), ensuring your patch is
+in-line with localForage's code style.
 
 TODO: Provide Windows/Linux instructions; check into XULRunner setup.
 
